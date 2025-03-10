@@ -13,7 +13,7 @@ export async function handler(
 ): Promise<CloudFrontResponseResult> {
 
     if (!activitiesHandler){
-        activitiesHandler = createHumanActivitiesHandler(config); //(event: CloudFrontResponseEvent, context: Context) => Promise<CloudFrontResponseResult>;
+        activitiesHandler = createHumanActivitiesHandler(config);
     }
 
     return activitiesHandler(event,context);

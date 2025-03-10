@@ -10,7 +10,8 @@
     "resolveJsonModule": true,
   },
   "include": [
-    "basic_example/src"
+    "basic_example/src",
+    "async_config_example/src",
   ],
   "exclude": ["lib"]
 }
