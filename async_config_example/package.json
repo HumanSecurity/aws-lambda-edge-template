@@ -8,7 +8,7 @@
     "clean": "rm -rf dist",
     "build": "esbuild --platform=node --format=cjs --target=es2022 --outdir=dist src/*.ts src/custom/*.ts && npm run build:library",
     "build:library": "esbuild --platform=node --format=cjs --target=es2022 --outdir=dist/px/ --bundle src/px/humansecurity.ts",
-    "zip": "./run-package.sh",
+    "zip": "../run-package.sh",
     "prebuild": "npm run clean",
     "prezip": "npm run build"
   },

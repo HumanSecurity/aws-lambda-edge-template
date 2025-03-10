@@ -9,7 +9,7 @@
     "build": "esbuild --platform=node --format=cjs --target=es2022 --outdir=dist src/*.ts && npm run build:library && npm run copy-config",
     "build:library": "esbuild --platform=node --format=cjs --target=es2022 --outdir=dist/px/ --bundle src/px/humansecurity.ts",
     "copy-config": "mkdir -p dist/custom && cp src/custom/config.json dist/custom/config.json",
-    "zip": "./run-package.sh",
+    "zip": "../run-package.sh",
     "prebuild": "npm run clean",
     "prezip": "npm run build"
   },
