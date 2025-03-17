@@ -1,1 +1,0 @@
-export * from '@humansecurity/aws-lambda-edge-enforcer';
