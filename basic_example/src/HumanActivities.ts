@@ -1,5 +1,4 @@
-import config from './custom/config.json';
-import {createHumanActivitiesHandler} from "@humansecurity/aws-lambda-edge-enforcer";
-
+import {createHumanActivitiesHandler} from "./px/humansecurity";
+import config from "./custom/config.json";
 
 export const handler = createHumanActivitiesHandler(config);

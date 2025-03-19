@@ -1,5 +1,5 @@
-import config from './custom/config.json';
-import {createHumanFirstPartyHandler} from "@humansecurity/aws-lambda-edge-enforcer";
+import {createHumanFirstPartyHandler} from "./px/humansecurity";
+import config from "./custom/config.json";
 
 
 export const handler = createHumanFirstPartyHandler(config);
