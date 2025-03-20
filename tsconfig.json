@@ -7,7 +7,11 @@
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
     "outDir": "lib",
+    "resolveJsonModule": true,
   },
-  "include": ["src"],
+  "include": [
+    "basic_example/src",
+    "async_config_example/src",
+  ],
   "exclude": ["lib"]
 }

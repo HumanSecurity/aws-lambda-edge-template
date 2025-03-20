@@ -1,4 +1,4 @@
-import { CloudFrontResponseEvent, CloudFrontRequestEvent, CloudFrontResponseResult, Context, CloudFrontResponseHandler } from 'aws-lambda';
+import { CloudFrontResponseEvent, CloudFrontResponseResult, Context } from 'aws-lambda';
 import { createHumanActivitiesHandler } from './px/humansecurity';
 import { getConfigAsync } from './custom/config';
 
