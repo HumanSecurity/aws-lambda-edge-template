@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
     "build": "node scripts/build.cjs",
-    "zip": "node ../scripts/package.js",
+    "zip": "node scripts/package.cjs",
     "prebuild": "npm run clean",
     "prezip": "npm run build"
   },
