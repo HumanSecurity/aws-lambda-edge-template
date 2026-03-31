@@ -13,7 +13,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@humansecurity/aws-lambda-edge-enforcer": "^4.2.0"
+    "@humansecurity/aws-lambda-edge-enforcer": "^4.10.0"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.130",
